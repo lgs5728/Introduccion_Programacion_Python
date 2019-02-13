@@ -15,11 +15,31 @@ Here, F and G both mean "draw forward", + means "turn left by angle", and − me
 
 '''
 
+def GenFractal(F, R1, R2):
+
+ lf = len(F)
+ FN = ''
+
+ for i in range(lf):
+    if F[i] == 'F':
+       FN = FN + R1
+    if F[i] == 'G':
+       FN = FN + R2
+    if F[i] == '+':
+       FN = FN + F[i]
+    if F[i] == '-':
+       FN = FN + F[i]
+
+ F = FN 
+ return F
+
 F = 'F-G-G'
 R1 = 'F-G+F+G-F'
 R2 = 'GG'
 teta = 120
-inc = 20
+inc = 40
+
+'''
 
 for j in range(3):
  lf = len(F)
@@ -53,6 +73,9 @@ for j in range(3):
 
  F = FN      
  print(F)
+'''
+
+F = GenFractal(F, R1, R2)
 
 # graficacion
 
