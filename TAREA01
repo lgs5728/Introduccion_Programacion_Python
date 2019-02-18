@@ -30,5 +30,7 @@ ii) De esta tabla quedarse con las palabras con una frecuencia menor del 20% y p
    NOTA1. Utilice las ecuaciones descritas en la pagina: https://miprofe.com/minimos-cuadrados/
    NOTA2. Implemente las fórmulas
    
-   
+ 4. Haciendo referencia a la pagina WWW: https://es.wikipedia.org/wiki/M%C3%A9todo_de_Euler, se decribe el Método de Euler para 
+    resolver ecuaciones diferenciales ordinarias. Implemente las funciones necesarias en Python para contruir la tabla del ejemplo 
+    que se describe en la pagina y además el error al utilizar este método para este ejemplo.
    
