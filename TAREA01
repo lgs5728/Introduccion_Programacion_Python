@@ -34,3 +34,6 @@ ii) De esta tabla quedarse con las palabras con una frecuencia menor del 20% y p
     resolver ecuaciones diferenciales ordinarias. Implemente las funciones necesarias en Python para contruir la tabla del ejemplo 
     que se describe en la pagina y además el error al utilizar este método para este ejemplo.
    
+5. Haciendo referencia a la pagina WWW: https://es.wikibooks.org/wiki/Electricidad/Campo_el%C3%A9ctrico, 
+   que describe el campo electrico de cargas puntuales. Haver las funciones necesarias para que grafique el campo 
+   electrico de una carga puntual y dos o más cargas puntuales.
